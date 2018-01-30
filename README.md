@@ -22,7 +22,7 @@ Once again, here are the locations of Bob and our customers:
 | Test   | 10 |   12      |
 
 And here are these locations in the form of a scatter plot.
-![Customers and Bob](./customers-plot.png "Customers and Bob")
+![Customers and Bob](//github.com/learn-co-curriculum/calculating-distance-readme-sample/raw/master/customers-plot.png "Customers and Bob")
 
 Now, there are no labels in this particular plot, but we should be able to make sense of it anyway.  Our table says that Bob is located at avenue 4 and block 8, and when we look at where the x-axis reaches 4 and the y-axis reaches 8, we see a marker right there - that's Bob.
 
