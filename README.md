@@ -34,7 +34,7 @@ Here's our first approach at calculating distance.  To go from 8th street and 4t
 
 Now that's a good start, but it's not how mathematicians would calculate distance between points.  The definition of distance is the length of shortest path between two points.  So imagine, if it helps, that we made our deliveries with the help of a drone.  So then which path from (4, 8) to (3,6) is shortest? We won't prove it, but one single straight line between any two points is the shortest path between them.  So the shortest path between (4,8) and (3, 6) is a straight diagonal line between them.  
 
-![Customers and Bob](./customers-line.png "Customers and Bob")
+![Customers and Bob](//github.com/learn-co-curriculum/calculating-distance-readme-sample/raw/master/customers-line.png "Customers and Bob")
 
 That blue diagonal line between the two points is the shortest path between the two points.  So by definition, the length diagonal line represents the distance.  So now we need to calculate the length of that line.
 
@@ -42,11 +42,11 @@ That blue diagonal line between the two points is the shortest path between the 
 
 Ok, to calculate that line, we realize that it forms a right triangle going from the lowest x-value to the highest x-value, 3 to 4 and from the lowest y-value to the highest y-value.  Take a look below, a nice triangle.
 
-![Customers and Bob](./triangle-customers.png "Customers and Bob")
+![Customers and Bob](//github.com/learn-co-curriculum/calculating-distance-readme-sample/raw/master/triangle-customers.png "Customers and Bob")
 
 Formally, a right triangle is any triangle where one of the angles is 90 degrees -- also called the **right angle**.  But you can also just know that, if one of the sides are perfectly vertical and perfectly horizontal we have a right triangle -- and above we drew our triangle to be just like that.  The reason why we drew this is because, given the length of two sides of a right triangle we can find the length of the diagonal line - and the length of the diagonal line is the distance between our two points.  That diagonal line is called the **hypotenuse**.  The hypotenuse is the always longest line of a right triangle, and it is always directly opposite the right angle.  
 
-![Customers and Bob](./triangle-definitions.png "Customers and Bob") 
+![Customers and Bob](//github.com/learn-co-curriculum/calculating-distance-readme-sample/raw/master/triangle-definitions.png "Customers and Bob") 
 
 This is our formula, for calculating the length of the diaganol line: the length of the first side squared plus the length of the second side square equals the length of the hypotenuse squared. We already calculated the horizontal side by subtracting our first x-value from our second x-value, then taking the absolute value.  The vertical side we calculated by subtracting the first y-value from the second y-value then taking the absolute value.  So we have.
 
